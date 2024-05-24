@@ -11,8 +11,8 @@ import {
   Legend,
   PointElement,
 } from "chart.js";
-import { Chart } from "react-chartjs-2";
 import type { ChartOptions, ChartData } from "chart.js";
+import { Chart } from "react-chartjs-2";
 
 ChartJS.register(
   CategoryScale,
