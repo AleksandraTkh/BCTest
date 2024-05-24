@@ -2,17 +2,17 @@ import React, { useState } from "react";
 import "../../styles/pages/general.css";
 import "../../styles/pages/GraphPage.css";
 import BarChart from "../graphs/LE/LifeExpectancy";
-import SecondGraph from "../graphs/LE/LEvsT";
-import ThirdGraph from "../graphs/LE/LEvsUV";
-import CancerTemperatureGraph from "../graphs/Disease/Cancer";
-import CardiovascularGraph from "../graphs/Disease/CV";
-import RespiratoryMortalityGraph from "../graphs/Disease/CR";
-import ParkinsonsGraph from "../graphs/Disease/Parkinson";
-import SIDSGraph from "../graphs/Disease/SIDS";
-import SuicideTemperaturePollutionGraph from "../graphs/Disease/NS";
-import BreastCancerClimateGraph2 from "../graphs/Disease/BreastCancer";
-import ProstateCancerGraph from "../graphs/Disease/ProstateCancer";
-import ColorectalCancerGraph from "../graphs/Disease/CorectalCancer";
+// import SecondGraph from "../graphs/LE/LEvsT";
+// import ThirdGraph from "../graphs/LE/LEvsUV";
+// import CancerTemperatureGraph from "../graphs/Disease/Cancer";
+// import CardiovascularGraph from "../graphs/Disease/CV";
+// import RespiratoryMortalityGraph from "../graphs/Disease/CR";
+// import ParkinsonsGraph from "../graphs/Disease/Parkinson";
+// import SIDSGraph from "../graphs/Disease/SIDS";
+// import SuicideTemperaturePollutionGraph from "../graphs/Disease/NS";
+// import BreastCancerClimateGraph2 from "../graphs/Disease/BreastCancer";
+// import ProstateCancerGraph from "../graphs/Disease/ProstateCancer";
+// import ColorectalCancerGraph from "../graphs/Disease/CorectalCancer";
 function Indicators() {
   const [activeTab, setActiveTab] = useState("tab1");
 
@@ -96,9 +96,7 @@ function Indicators() {
             </div>
           </div>
           <div className="graph-text-container">
-            <div className="graph-container">
-              <SecondGraph />
-            </div>
+            <div className="graph-container">{/* <SecondGraph /> */}</div>
             <div className="text-container">
               <h3 className="heading-description">Description:</h3>
               <p className="text">
@@ -110,9 +108,7 @@ function Indicators() {
             </div>
           </div>
           <div className="graph-text-container">
-            <div className="graph-container">
-              <ThirdGraph />
-            </div>
+            <div className="graph-container">{/* <ThirdGraph /> */}</div>
             <div className="text-container">
               <h3 className="heading-description">Description:</h3>
               <p className="text">
@@ -130,7 +126,7 @@ function Indicators() {
         <>
           <div className="graph-text-container">
             <div className="graph-container">
-              <CancerTemperatureGraph />
+              {/* <CancerTemperatureGraph /> */}
             </div>
             <div className="text-container">
               <h3 className="heading-description">Description:</h3>
@@ -156,7 +152,7 @@ function Indicators() {
           </div>
           <div className="graph-text-container">
             <div className="graph-container">
-              <BreastCancerClimateGraph2 />
+              {/* <BreastCancerClimateGraph2 /> */}
             </div>
             <div className="text-container">
               <h3 className="heading-description">Description:</h3>
@@ -171,7 +167,7 @@ function Indicators() {
           </div>
           <div className="graph-text-container">
             <div className="graph-container">
-              <ProstateCancerGraph />
+              {/* <ProstateCancerGraph /> */}
             </div>
             <div className="text-container">
               <h3 className="heading-description">Description:</h3>
@@ -186,7 +182,7 @@ function Indicators() {
           </div>
           <div className="graph-text-container">
             <div className="graph-container">
-              <ColorectalCancerGraph />
+              {/* <ColorectalCancerGraph /> */}
             </div>
             <div className="text-container">
               <h3 className="heading-description">Description:</h3>
@@ -208,7 +204,7 @@ function Indicators() {
         <>
           <div className="graph-text-container">
             <div className="graph-container">
-              <CardiovascularGraph />
+              {/* <CardiovascularGraph /> */}
             </div>
             <div className="text-container">
               <h3 className="heading-description">Description:</h3>
@@ -245,7 +241,7 @@ function Indicators() {
         <>
           <div className="graph-text-container">
             <div className="graph-container">
-              <RespiratoryMortalityGraph />
+              {/* <RespiratoryMortalityGraph /> */}
             </div>
             <div className="text-container">
               <h3 className="heading-description">Description:</h3>
@@ -271,9 +267,7 @@ function Indicators() {
       {activeTab === "tab5" && (
         <>
           <div className="graph-text-container">
-            <div className="graph-container">
-              <ParkinsonsGraph />
-            </div>
+            <div className="graph-container">{/* <ParkinsonsGraph /> */}</div>
             <div className="text-container">
               <h3 className="heading-description">Description:</h3>
               <p className="text">
@@ -293,9 +287,7 @@ function Indicators() {
       {activeTab === "tab6" && (
         <>
           <div className="graph-text-container">
-            <div className="graph-container">
-              <SIDSGraph />
-            </div>
+            <div className="graph-container">{/* <SIDSGraph /> */}</div>
             <div className="text-container">
               <h3 className="heading-description">Description:</h3>
               <p className="text">
@@ -327,7 +319,7 @@ function Indicators() {
         <>
           <div className="graph-text-container">
             <div className="graph-container">
-              <SuicideTemperaturePollutionGraph />
+              {/* <SuicideTemperaturePollutionGraph /> */}
             </div>
             <div className="text-container">
               <h3 className="heading-description">Description:</h3>
